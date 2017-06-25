@@ -1,9 +1,14 @@
-﻿using System;
+﻿#region Using directives
+/*
+ * 使用#region和#endregion可以将包含在其中的代码折叠为一行
+ * 
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+#endregion 
 namespace FirstDemo
 {
     class Program
