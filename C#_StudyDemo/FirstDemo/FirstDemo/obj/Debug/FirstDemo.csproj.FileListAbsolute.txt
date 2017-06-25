@@ -1,0 +1,6 @@
+E:\StudyDemo\C#_StudyDemo\FirstDemo\FirstDemo\bin\Debug\FirstDemo.exe.config
+E:\StudyDemo\C#_StudyDemo\FirstDemo\FirstDemo\bin\Debug\FirstDemo.exe
+E:\StudyDemo\C#_StudyDemo\FirstDemo\FirstDemo\bin\Debug\FirstDemo.pdb
+E:\StudyDemo\C#_StudyDemo\FirstDemo\FirstDemo\obj\Debug\FirstDemo.csprojResolveAssemblyReference.cache
+E:\StudyDemo\C#_StudyDemo\FirstDemo\FirstDemo\obj\Debug\FirstDemo.exe
+E:\StudyDemo\C#_StudyDemo\FirstDemo\FirstDemo\obj\Debug\FirstDemo.pdb
