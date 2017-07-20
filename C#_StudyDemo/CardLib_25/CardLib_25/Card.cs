@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Collections;
 
 namespace CardLib_25
 {
-    public class Card
+    public class Card:ICloneable
     {
         public readonly Suit suit;
         public readonly Rank rank;
@@ -25,5 +26,9 @@ namespace CardLib_25
         {
             return "The " + rank + " of " + suit + "s";
         }
+
+        public Object Clone() => MemberwiseClone();
+
+
     }
 }

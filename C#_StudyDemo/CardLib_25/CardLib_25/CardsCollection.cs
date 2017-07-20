@@ -7,7 +7,7 @@ using System.Collections;
 
 namespace CardLib_25
 {
-    public const class CardsCollection:CollectionBase
+    public class CardsCollection:CollectionBase,ICloneable
     {
         public void Add(Card newCard)
         {
@@ -29,7 +29,15 @@ namespace CardLib_25
                 targetCards[index] = this[index];
             }
         }
-
+        public object Clone()
+        {
+            CardsCollection newCards = new CardsCollection();
+            foreach (Card sourceCard in List)
+            {
+                newCards.Add((Card)sourceCard.Clone());
+            }
+            return newCards;
+        }
 
 
     }
