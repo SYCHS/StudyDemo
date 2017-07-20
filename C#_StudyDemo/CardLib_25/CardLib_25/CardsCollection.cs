@@ -7,7 +7,7 @@ using System.Collections;
 
 namespace CardLib_25
 {
-    public class CardsCollection:CollectionBase
+    public const class CardsCollection:CollectionBase
     {
         public void Add(Card newCard)
         {
